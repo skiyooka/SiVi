@@ -21,7 +21,7 @@
     </target>
 
     <target name="run" depends="build">
-        <java classname="com.adonax.texturebuilder.SimplexTextureBuilder" fork="true">
+        <java classname="com.adonax.simplexNoiseVisualizer.SiViApplication" fork="true">
             <classpath>
                 <pathelement path="target/classes"/>
             </classpath>
@@ -30,7 +30,7 @@
 
     <target name="jar" depends="build">
         <manifest file="target/MANIFEST.MF">
-            <attribute name="Main-Class" value="com.adonax.texturebuilder.SimplexTextureBuilder"/>
+            <attribute name="Main-Class" value="com.adonax.simplexNoiseVisualizer.SiViApplication"/>
         </manifest>
         <jar destfile="target/SiVi-1.0-SNAPSHOT.jar"
              basedir="target/classes"

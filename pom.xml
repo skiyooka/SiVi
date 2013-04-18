@@ -33,7 +33,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.adonax.texturebuilder.SimplexTextureBuilder</mainClass>
+                            <mainClass>com.adonax.simplexNoiseVisualizer.SiViApplication</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -55,7 +55,7 @@
                     <arguments>
                         <argument>-cp</argument>
                         <classpath/>
-                        <argument>com.adonax.texturebuilder.SimplexTextureBuilder</argument>
+                        <argument>com.adonax.simplexNoiseVisualizer.SiViApplication</argument>
                     </arguments>
                 </configuration>
             </plugin>
